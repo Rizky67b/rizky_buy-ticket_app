@@ -1,0 +1,22 @@
+STORE "pilih_ticket" AS STRING WITH ENUM OF "a", "b", "c", "d"
+	PrintIn "a" = "Reguler_Ticket"
+	PrintIn "b" = "Starium_Ticket"
+	PrintIn "c" = "Golden_Class_Ticket"
+	PrintIn "d" = "Velvet_Class_Ticket"
+STORE "pilih_jumlah_ticket" AS NUMBER WITH ANY VALUE
+
+IF "pilih_ticket" EQUAL "a"
+	STORE "result" WITH "Reguler_Ticket" TIMES "pilih_jumlah_ticket"
+	DISPLAY "result"
+ELSE IF "pilih_ticket" EQUAL "a"
+	STORE "result" WITH "Starium_Ticket" TIMES "pilih_jumlah_ticket"
+	DISPLAY "result"
+ELSE IF "pilih_ticket" EQUAL "a"
+	STORE "result" WITH "Golden_Class_Ticket" TIMES "pilih_jumlah_ticket"
+	DISPLAY "result"
+ELSE IF "pilih_ticket" EQUAL "a"
+	STORE "result" WITH "Velvet_Class_Ticket" TIMES "pilih_jumlah_ticket"
+	DISPLAY "result"
+ELSE
+	DISPLAY "Invalid Process"
+END IF
