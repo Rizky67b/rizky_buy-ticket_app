@@ -1,0 +1,14 @@
+Berikut Algoritma Pembelian Ticket Bioskop :
+1. Mulai
+2. Pilih Ticket
+   (a). Reguler
+   (b). Starium
+   (c). Gold Class
+   (d). Velvet Class
+3. Pilih Jumlah Ticket
+4. Jika Input Ticket "a" maka hitung harga ticket * jumlah ticket = Hasil kali Harga Ticket
+   Jika Input Ticket "b" maka hitung harga ticket * jumlah ticket = Hasil kali Harga Ticket
+   Jika Input Ticket "c" maka hitung harga ticket * jumlah ticket = Hasil kali Harga Ticket
+   Jika Input Ticket "d" maka hitung harga ticket * jumlah ticket = Hasil kali Harga Ticket
+5. Total Harga
+6. Selesai
